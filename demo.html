@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+
+	<style>
+
+		/* Styling the Body element i.e. Color, 
+		Font, Alignment */ 
+		body {
+			background-color: #ecf0f3;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */ 
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input, 
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio 
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #89fac5;
+			border: 1px solid #777;
+			border-radius: 50px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 15%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+			margin-left: 25em;
+			margin-right:3em;
+			
+		}
+		button:hover
+		{
+			background-color: rgb(109, 241, 116);
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Share your love Donate</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Kind of food
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="food" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Quantity
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter quantity" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Time slot
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				placeholder="" />
+		</div>
+
+		
+
+		
+			
+
+		
+		
+
+		<!-- Multi-line Text Input Control -->
+		
+	</form>
+	<button onclick="window.location.href='html5.html'">
+		Orphanages
+	</button>
+    <button onclick="window.location.href='fri.html'">
+		Friends/Relatives
+	</button>
+</body>
+</html>
